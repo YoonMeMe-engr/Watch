@@ -1,0 +1,16 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Watch {
+    color: #ffc107;
+    font-size: 200px;
+    font-weight: bold;
+}
+
