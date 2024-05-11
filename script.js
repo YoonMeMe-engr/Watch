@@ -63,7 +63,9 @@ continueButtonTag.addEventListener("click" , () => {
 
 restartButtonTag.addEventListener("click" , () => {
     clearInterval(intervalId); //startinerval ကို stop လုပ်ဖို့ Built-in Function
-    (miliseconds = 0), (seconds = 0), (minutes = 0), (hours = 0); 
+    (miliseconds = 0), (seconds = 0), (minutes = 0), (hours = 0);
+    WatchTag.innerHTML = "00 : 00 : 00";
+    FooterTag.innerHTML = "000";
     intervalId = setInterval(startTime, 10);
 });
 
