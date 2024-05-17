@@ -1,5 +1,5 @@
 const WatchTag = document.getElementsByClassName("Watch")[0];
-const FooterTag = document.getElementById("footer");
+const FooterTag = document.getElementById("Footer");
 const startButtonTag = document.getElementsByClassName("startButton")[0];
 const pauseButtonTag = document.getElementsByClassName("pauseButton")[0];
 const continueButtonTag = document.getElementsByClassName("continueButton")[0];
