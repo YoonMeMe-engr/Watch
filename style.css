@@ -33,7 +33,7 @@ html, body {
     
 }
 
-.Footer {
+#Footer {
     color: pink;
     font-size: 50px;
     font-weight: bold;
